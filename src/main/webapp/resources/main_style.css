@@ -1,0 +1,20 @@
+body {
+    background-color: #94bed6;
+    font-family: Georgia;
+    line-height: 3;
+    margin: 0 auto;
+
+}
+.title {
+    text-align: center;
+    color: #050626;
+}
+.listOfOptions {
+    text-align: center;
+
+}
+.option {
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 50%;
+}
+

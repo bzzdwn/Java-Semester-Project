@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:form="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Reader page</title>
+  <link rel="stylesheet" href="/resources/main_style.css">
+</head>
+<body>
+
+<h1 class="title">Choose file</h1>
+<form class="listOfOptions" action="uploadfile" method="post" enctype="multipart/form-data">
+  <div class="form-group">
+    <label for="formFile" class="form-label">Upload Your file</label>
+    <input name="thisfile" class="form-control" type="file" id="formFile">
+  </div>
+  <button class="btn btn-secondary">Upload</button>
+</form>
+
+<br/>
+<hr/>
+
+
+</body>
+</html>
