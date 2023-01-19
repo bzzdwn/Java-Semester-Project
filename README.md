@@ -23,3 +23,7 @@ _Примечания:_
 ![image](https://user-images.githubusercontent.com/93089691/213317731-1ec399f6-0300-48b9-8e88-6e28b1a7e153.png)
 
 Работа выполняется с файлами, лежащими в основной директории проекта.
+
+## Web User Interface
+
+![image](https://user-images.githubusercontent.com/93089691/213468631-77fe9dae-96ed-4514-9fd1-568485241b93.png)
