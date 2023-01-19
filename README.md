@@ -27,7 +27,7 @@ _Примечания:_
 ## Graphic User Interface
 Вся логика поддерживается Desktop-интерфейсом. Интерфейс реализован при помощи библиотеки JavaFX.
 
-![image](https://user-images.githubusercontent.com/93089691/213567680-04468c7a-2348-4cf1-89c7-c052a8e16560.png)
+![image](https://user-images.githubusercontent.com/93089691/213578994-9fa1a2b7-11d1-4570-a7e1-4ad95720b5df.png)
 
 
 ## Web User Interface
