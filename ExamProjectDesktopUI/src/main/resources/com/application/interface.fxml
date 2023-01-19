@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="310.0" style="-fx-background-color: #8f92e3;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.application.Controller">
+    <children>
+        <Button fx:id="chooseButton" layoutX="40.0" layoutY="54.0" mnemonicParsing="false" onAction="#actionButton" onMouseDragEntered="#actionChooseEntered" prefHeight="56.0" prefWidth="229.0" style="-fx-background-color: #92c4e8;" text="Choose file">
+            <font>
+                <Font name="Georgia Italic" size="16.0" />
+            </font>
+        </Button>
+        <AnchorPane layoutY="245.0" prefHeight="229.0" prefWidth="310.0" style="-fx-background-color: #4b48cf;">
+         <children>
+            <ButtonBar layoutX="13.0" layoutY="30.0" prefHeight="40.0" prefWidth="200.0">
+               <buttons>
+                    <Button mnemonicParsing="false" onAction="#actionTXT" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #42c5cf;" text="To TXT">
+                     <font>
+                        <Font name="Georgia Italic" size="12.0" />
+                     </font>
+                  </Button>
+                    <Button mnemonicParsing="false" onAction="#actionJSON" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #42c5cf;" text="To JSON">
+                     <font>
+                        <Font name="Georgia Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#actionXML" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #42c5cf;" text="To XML">
+                     <font>
+                        <Font name="Georgia Italic" size="12.0" />
+                     </font>
+                  </Button>
+               </buttons>
+            </ButtonBar>
+            <ButtonBar layoutX="13.0" layoutY="82.0" prefHeight="40.0" prefWidth="200.0">
+               <buttons>
+                    <Button mnemonicParsing="false" onAction="#actionZip" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #42c5cf;" text="Zip">
+                     <font>
+                        <Font name="Georgia Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#actionRar" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #42c5cf;" text="Rar">
+                     <font>
+                        <Font name="Georgia Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#actionJar" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #42c5cf;" text="Jar">
+                     <font>
+                        <Font name="Georgia Italic" size="12.0" />
+                     </font>
+                  </Button>
+               </buttons>
+            </ButtonBar>
+              <Button layoutX="105.0" layoutY="122.0" mnemonicParsing="false" onAction="#actionUnarchive" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #42c5cf;" text="Unarchive">
+               <font>
+                  <Font name="Georgia Italic" size="12.0" />
+               </font>
+            </Button>
+            <ButtonBar layoutX="46.0" layoutY="160.0" prefHeight="40.0" prefWidth="200.0">
+               <buttons>
+                    <Button mnemonicParsing="false" onAction="#actionEncrypt" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #42c5cf;" text="Encrypt">
+                     <font>
+                        <Font name="Georgia Italic" size="12.0" />
+                     </font>
+                  </Button>
+                    <Button mnemonicParsing="false" onAction="#actionDecrypt" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: #42c5cf;" text="Decrypt">
+                     <font>
+                        <Font name="Georgia Italic" size="12.0" />
+                     </font>
+                  </Button>
+               </buttons>
+            </ButtonBar>
+         </children>
+        </AnchorPane>
+          <Label fx:id="fileLabel" layoutX="41.0" layoutY="127.0" prefHeight="55.0" prefWidth="182.0" text="File: " textFill="#01000c">
+         <font>
+            <Font name="Georgia Italic" size="12.0" />
+         </font></Label>
+      <Label fx:id="resultLabel" layoutX="41.0" layoutY="182.0" prefHeight="55.0" prefWidth="182.0" text="Result:" textFill="#01000c">
+         <font>
+            <Font name="Georgia Italic" size="12.0" />
+         </font></Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,63 @@
+{
+  "expressionList" : [ {
+    "expression" : "2+3+5*10",
+    "result" : 0
+  }, {
+    "expression" : "11+3*9*4/3",
+    "result" : 0
+  }, {
+    "expression" : "20-13+8*(12-3)",
+    "result" : 0
+  }, {
+    "expression" : "3+2+1",
+    "result" : 0
+  }, {
+    "expression" : "3+3+5+10",
+    "result" : 0
+  }, {
+    "expression" : "1 + ( 1+1+1) + 1",
+    "result" : 0
+  }, {
+    "expression" : "9- 6 - 3",
+    "result" : 0
+  }, {
+    "expression" : "2-3-5-9",
+    "result" : 0
+  }, {
+    "expression" : "9 - 5 - 9",
+    "result" : 0
+  }, {
+    "expression" : "3 + 5- 7 + 9 - 2",
+    "result" : 0
+  }, {
+    "expression" : "1+1-1+1-1-1-1-1",
+    "result" : 0
+  }, {
+    "expression" : "3*2*1",
+    "result" : 0
+  }, {
+    "expression" : "9*9*9",
+    "result" : 0
+  }, {
+    "expression" : "9*9*9*0",
+    "result" : 0
+  }, {
+    "expression" : "3-3*2",
+    "result" : 0
+  }, {
+    "expression" : "(3-3)*2",
+    "result" : 0
+  }, {
+    "expression" : "(1+2)*(1-2)",
+    "result" : 0
+  }, {
+    "expression" : "6/2",
+    "result" : 0
+  }, {
+    "expression" : "6/2/2",
+    "result" : 0
+  }, {
+    "expression" : "0/2/2",
+    "result" : 0
+  } ]
+}

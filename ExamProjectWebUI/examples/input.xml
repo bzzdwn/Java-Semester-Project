@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+	<expressionsList>
+		<expression>
+			2+3+5*10
+		</expression>
+		<expression>
+			11+3*9*4/3
+		</expression>
+		<expression>
+			20-13+8*(12-3)
+		</expression>
+		<expression>
+			3+2+1
+		</expression>
+		<expression>
+			3+3+5+10
+		</expression>
+		<expression>
+			1 + ( 1+1+1) + 1
+		</expression>
+		<expression>
+			9- 6 - 3
+		</expression>
+		<expression>
+			2-3-5-9
+		</expression>
+		<expression>
+			9 - 5 - 9
+		</expression>
+		<expression>
+			3 + 5- 7 + 9 - 2
+		</expression>
+		<expression>
+			1+1-1+1-1-1-1-1
+		</expression>
+		<expression>
+			3*2*1
+		</expression>
+		<expression>
+			9*9*9
+		</expression>
+		<expression>
+			9*9*9*0
+		</expression>
+		<expression>
+			3-3*2
+		</expression>
+		<expression>
+			(3-3)*2
+		</expression>
+		<expression>
+			(1+2)*(1-2)
+		</expression>
+		<expression>
+			6/2
+		</expression>
+		<expression>
+			6/2/2
+		</expression>
+		<expression>
+			0/2/2
+		</expression>
+	</expressionsList>

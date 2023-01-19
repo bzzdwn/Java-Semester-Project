@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Archive page</title>
+  <link rel="stylesheet" href="/resources/main_style.css">
+</head>
+<body>
+
+<h1 class="title">Choose option</h1>
+
+<div class="listOfOptions" th:each="option : ${optionsList}">
+  <a class="option"
+     th:href="@{/{id}(id=${option.getId()})}"
+     th:text="${option.getName()}">option</a>
+</div>
+
+<br/>
+<hr/>
+
+
+</body>
+</html>
