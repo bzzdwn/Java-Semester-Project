@@ -26,5 +26,6 @@ _Примечания:_
 
 ## Web User Interface
 
-![780w33](https://user-images.githubusercontent.com/93089691/213468832-1754c17e-c2ef-4574-a82f-2d7588b0438f.gif)
+![780zh5](https://user-images.githubusercontent.com/93089691/213475088-afc046ac-e88b-4bae-b05e-3eb37a27cf56.gif)
+
 
