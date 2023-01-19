@@ -29,6 +29,8 @@ _Примечания:_
 * BackEnd-часть реализована с помощью Spring Framework и архитектуры REST (поддерживаются GET-запросы для получения инфорации об элементе меню и POST-запросы для выгрузки файлов на сервер).
 * FrontEnd-часть реализована с помощью HTML & немного CSS.
 
+**Для всего функционала WebUI написаны Unit-Тесты с помощью библиотеки JUnit + MockMVC (Mock Framework).**
+
 Ниже GIF, демонстрирующее работу WebUI:
 
 ![780zh5](https://user-images.githubusercontent.com/93089691/213475088-afc046ac-e88b-4bae-b05e-3eb37a27cf56.gif)
