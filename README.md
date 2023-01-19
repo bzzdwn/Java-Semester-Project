@@ -26,4 +26,4 @@ _Примечания:_
 
 ## Web User Interface
 
-![image](https://user-images.githubusercontent.com/93089691/213468631-77fe9dae-96ed-4514-9fd1-568485241b93.png)
+[![image](https://user-images.githubusercontent.com/93089691/213468631-77fe9dae-96ed-4514-9fd1-568485241b93.png)](https://imgflip.com/gif/780w33)
